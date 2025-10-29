@@ -55,7 +55,6 @@ docker run --rm -p 8000:8000 tasks-api:1.0
 ## 🔌 Ejemplos de Uso (curl)
 ### Salud
 curl -s http://localhost:8000/health | jq .
-# { "status": "ok" }
 
 ### Listar tareas
 ```bash
